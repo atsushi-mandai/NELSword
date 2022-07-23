@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: MIT
-// ATSUSHI MANDAI CRDIT Contracts
+// ATSUSHI MANDAI NELSword Contracts
 pragma solidity ^0.8.0;
 
 import "./token/ERC4907/ERC4907.sol";
@@ -20,7 +20,7 @@ contract NELSword is ERC4907, Ownable {
     uint256 public priceTITAN = 10000 * (10**18);
     uint256 public priceNEL = 5 * (10**17);
     address public addressTITAN = 0xaAa5B9e6c589642f98a1cDA99B9D024B8407285A;
-    address public addressNEL;
+    address public addressNEL = 0x09C26481d4B417aF5904Df55bEbA15c103cA7B4E;
 
     struct Metadata {
         uint8 increaseAttack;
